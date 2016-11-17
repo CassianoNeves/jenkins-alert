@@ -5,7 +5,7 @@ var job = setInterval(function() {
     
     console.log('Job: ' + time + '%');
 
-    if (time === 5) {
+    if (time === 30) {
         throw new Error("Build Error!");
     }
 }, 1000);
